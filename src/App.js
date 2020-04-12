@@ -1,13 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Learn React Testing</h1>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return <div data-test="component-app"></div>;
+  }
 }
 
 export default App;
